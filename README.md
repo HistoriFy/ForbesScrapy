@@ -8,7 +8,7 @@ The same spider is then used to crawl relevant data of top 20 companies by rank 
 
 Spider is named **spider1.py** in the spiders folder.
 
-To simply crawl data at once, run the following command in terminal:
+To simply crawl data at once, run the following command in terminal by going in your parent folder directory first:
 ```sh
 scrapy crawl spider1
 ```
