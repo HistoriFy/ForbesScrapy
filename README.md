@@ -6,6 +6,15 @@ Details about the all 800 entries present in [World's Best Employers](https://ww
 
 The same spider is then used to crawl revelant data of top 20 companies by rank through their profile links fetched from the original list. Result is again stored in another json file named **company.json** (Just with a different parser function this time)
 
+Spider is named **spider1.py** in the spiders folder.
+
+To simply crawl data at once, run the following command in terminal:
+```sh
+scrapy crawl spider1
+```
+
+Data will be stored in the parent folder.
+
 ## Requirements 
 
 Please run the project folder in a virtual enviroment with the requirements.txt installed first to avoid any issues.
